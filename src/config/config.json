@@ -1,0 +1,40 @@
+{
+  "site": {
+    "title": "KI ohne Cloud",
+    "base_url": "https://ki-ohne.cloud",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/local-ai-logo.png",
+    "logo_width": "400",
+    "logo_height": "200",
+    "logo_text": "KI ohne Cloud"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Kontakt",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "footer_content": "",
+    "copyright": ""
+  },
+
+  "metadata": {
+    "meta_author": "Niko Straub",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "KI ohne Cloud. Lokale und private KI selbst betreiben. Zuhause oder im Büro."
+  },
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  }
+}
