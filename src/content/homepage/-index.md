@@ -2,7 +2,7 @@
 banner:
   title: KI ohne Cloud
   content: sicher | privat | unzensiert | kostenlos
-  image: /images/banner-art.png
+  image: /images/ki-ohne-cloud-homepage-banner.jpg
   button:
     enable: true
     label: Contact Us
