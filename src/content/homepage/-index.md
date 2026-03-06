@@ -2,7 +2,7 @@
 banner:
   title: KI ohne Cloud
   content: DEINE KI | DEINE DATEN | LOKAL BETRIEBEN
-  image: /images/ki-ohne-cloud-homepage-banner.jpg
+  image: /images/ki-ohne-cloud-homepage-banner_copy(1).jpg
   button:
     enable: true
     label: Contact Us
