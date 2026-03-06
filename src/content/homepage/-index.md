@@ -1,7 +1,7 @@
 ---
 banner:
   title: KI ohne Cloud
-  content: sicher | privat | unzensiert | kostenlos
+  content: DEINE KI | DEINE DATEN | LOKAL BETRIEBEN
   image: /images/ki-ohne-cloud-homepage-banner.jpg
   button:
     enable: true
