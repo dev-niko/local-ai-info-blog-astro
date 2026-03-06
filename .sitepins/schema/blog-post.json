@@ -1,0 +1,38 @@
+{
+  "name": "Blog Post",
+  "file": "content/blog/example-post.md",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "type": "text",
+      "label": "Post Title",
+      "required": true
+    },
+    {
+      "name": "date",
+      "type": "datetime",
+      "label": "Publish Date",
+      "required": true
+    },
+    {
+      "name": "author",
+      "type": "text",
+      "label": "Author Name",
+      "default": "John Doe"
+    },
+    {
+      "name": "draft",
+      "type": "boolean",
+      "label": "Draft Status",
+      "default": true
+    },
+    {
+      "name": "tags",
+      "type": "array",
+      "label": "Tags",
+      "default": []
+    }
+  ]
+}
