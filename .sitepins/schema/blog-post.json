@@ -1,38 +1,48 @@
 {
-  "name": "Blog Post",
   "file": "content/blog/example-post.md",
   "fileType": "md",
   "fmType": "yaml",
   "template": [
     {
       "name": "title",
-      "type": "text",
       "label": "Post Title",
-      "required": true
+      "type": "text",
+      "isIgnored": false
+    },
+    {
+      "name": "post_image",
+      "label": "Post Image",
+      "type": "media",
+      "value": "",
+      "description": "",
+      "isIgnored": false,
+      "isRequired": false,
+      "defaultValue": ""
     },
     {
       "name": "date",
-      "type": "datetime",
       "label": "Publish Date",
-      "required": true
+      "type": "datetime",
+      "isIgnored": false
     },
     {
       "name": "author",
-      "type": "text",
       "label": "Author Name",
-      "default": "John Doe"
+      "type": "text",
+      "isIgnored": false
     },
     {
       "name": "draft",
-      "type": "boolean",
       "label": "Draft Status",
-      "default": true
+      "type": "boolean",
+      "value": false,
+      "isIgnored": false
     },
     {
       "name": "tags",
-      "type": "array",
       "label": "Tags",
-      "default": []
+      "type": "array",
+      "isIgnored": false
     }
   ]
 }
